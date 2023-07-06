@@ -8,3 +8,23 @@
     min-height: 100vh;
     background-color: grey;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between
+}
+img {
+
+}
+.submit-button {
+    background-color: aqua;
+    color: aliceblue;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    /* margin-left: 30px; */
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: brown;
+    color: black;
+}
