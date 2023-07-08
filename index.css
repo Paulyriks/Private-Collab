@@ -10,8 +10,14 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-between
+    /* justify-content: space-between; */
+    min-height: 10vh;
+    background-color: aqua;
 }
+h1{
+    flex: 1;
+}
+
 img {
 
 }
@@ -27,4 +33,38 @@ img {
 .submit-button:hover {
     background-color: brown;
     color: black;
+}
+main{
+    min-height: 80vh;
+   
+    
+}
+.container{
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    /* flex-wrap: wrap; */
+}
+.col1{
+    height: 50%;
+    flex-grow: 1;
+}
+.col2{
+    height: 50%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 50px;
+    font-weight: bolder;
+    color: aqua;
+}
+footer{
+    min-height: 10vh;
+    background-color: aqua;
 }
